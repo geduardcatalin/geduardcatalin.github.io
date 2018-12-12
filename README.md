@@ -1,2 +1,2 @@
-# geduardcatalin.github.io
+# geduardcatalindev.github.io
 My Public Blog
