@@ -1,6 +1,6 @@
 class App extends React.Component{
   constructor(props) {
-    parent(props);
+    super(props);
   }
   render() {
     const backgroundStyle = {
