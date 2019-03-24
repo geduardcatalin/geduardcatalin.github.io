@@ -13,7 +13,7 @@ class App extends React.Component{
      'position': 'fixed'
     };
     return (
-      <div style={backgroundStyle}><div>
+      <div style={backgroundStyle}></div>
     );
   };
 }
