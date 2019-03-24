@@ -2,7 +2,7 @@ class App {
   constructor(props) {
     parent(props);
   }
-  render(
+  render() {
     const backgroundStyle = {
      'width': '100%',
      'height': '100%',
@@ -15,7 +15,7 @@ class App {
     return (
       <div style={backgroundStyle}><div>
     );
-  );
+  };
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
