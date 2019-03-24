@@ -1,6 +1,20 @@
-const App = () => {
-  return (
-    <div style={{'width':'100%','height':'100%','top':'0','left':'0','z-index':'-999','backgroundColor':'grey'}}><div>
+class App {
+  constructor(props) {
+    parent(props);
+  }
+  render(
+    const backgroundStyle = {
+     'width': '100%',
+     'height': '100%',
+     'top': '0',
+     'left': '0',
+     'zIndex': '-999',
+     'backgroundColor': 'grey',
+     'position': 'fixed'
+    };
+    return (
+      <div style={backgroundStyle}><div>
+    );
   );
 }
 
