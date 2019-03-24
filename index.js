@@ -1,4 +1,4 @@
-class App {
+class App extends React.Component{
   constructor(props) {
     parent(props);
   }
